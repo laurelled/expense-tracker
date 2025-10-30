@@ -1,0 +1,21 @@
+{
+  "name": "@libs/auth-plugin",
+  "version": "0.0.0",
+  "description": "Auth Fastify plugin for expense tracker API",
+  "license": "ISC",
+  "author": "Lorenzo Bafunno",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^10.0.0",
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "typescript": "^5.9.3"
+  }
+}

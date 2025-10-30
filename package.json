@@ -1,0 +1,23 @@
+{
+  "name": "expense-tracker",
+  "version": "0.0.0",
+  "description": "Expense tracker API",
+  "workspaces": [
+    "libs/*",
+    "services/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run build && node dist/src/app.js",
+    "dev": "npm run build && nodemon --watch src -e ts ./dist/src/app.js",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "repository": {
+    "url": "git@github.com:laurelled/expense-tracker.git"
+  },
+  "keywords": [ "microservices architecture", "Event-driven programming", "expense tracker", "RESTful API", "Expense tracker"],
+  "author": "Lorenzo Bafunno",
+  "license": "ISC",
+  "type": "module"
+}

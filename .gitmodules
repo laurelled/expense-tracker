@@ -1,0 +1,6 @@
+[submodule "services/auth"]
+	path = services/auth
+	url = git@github.com:laurelled/expense-tracker-auth.git
+[submodule "services/users"]
+	path = services/users
+	url = git@github.com:laurelled/expense-tracker-users.git
